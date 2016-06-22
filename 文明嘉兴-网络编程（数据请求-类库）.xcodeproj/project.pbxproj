@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB35CD4CE6A29A77FFEA551 /* libPods-文明嘉兴-网络编程（数据请求-类库）.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC84CA8F41ADBD03670E90C /* libPods-文明嘉兴-网络编程（数据请求-类库）.a */; };
+		C7141F2A1D07BE8E0093A69F /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = C7141F291D07BE8E0093A69F /* News.m */; };
+		C71C5E301D0CE3A200841E12 /* BannerNews.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C5E2F1D0CE3A200841E12 /* BannerNews.m */; };
+		C742A0791D1A1D9100958B8F /* NewsSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C742A0781D1A1D9100958B8F /* NewsSort.m */; };
+		C76D2F491D11427800637F58 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76D2F481D11427800637F58 /* NewViewController.m */; };
+		C76D2F4C1D1142FE00637F58 /* PublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76D2F4B1D1142FE00637F58 /* PublicViewController.m */; };
+		C76D2F4F1D11433200637F58 /* CivilizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76D2F4E1D11433200637F58 /* CivilizationViewController.m */; };
 		C7AF4B091D026FB0007E0467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B081D026FB0007E0467 /* main.m */; };
 		C7AF4B0C1D026FB0007E0467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B0B1D026FB0007E0467 /* AppDelegate.m */; };
-		C7AF4B0F1D026FB0007E0467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B0E1D026FB0007E0467 /* ViewController.m */; };
+		C7AF4B0F1D026FB0007E0467 /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B0E1D026FB0007E0467 /* OneController.m */; };
 		C7AF4B121D026FB0007E0467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AF4B101D026FB0007E0467 /* Main.storyboard */; };
 		C7AF4B151D026FB0007E0467 /* __________________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B131D026FB0007E0467 /* __________________.xcdatamodeld */; };
 		C7AF4B171D026FB0007E0467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AF4B161D026FB0007E0467 /* Assets.xcassets */; };
 		C7AF4B1A1D026FB0007E0467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AF4B181D026FB0007E0467 /* LaunchScreen.storyboard */; };
 		C7AF4B251D026FB0007E0467 /* __________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B241D026FB0007E0467 /* __________________Tests.m */; };
 		C7AF4B301D026FB0007E0467 /* __________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B2F1D026FB0007E0467 /* __________________UITests.m */; };
+		C7AF4B721D027125007E0467 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF4B701D027125007E0467 /* TableViewCell.m */; };
+		C7AF4B731D027125007E0467 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7AF4B711D027125007E0467 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDBA92291A12DC1D8A4A4C6E /* Pods-文明嘉兴-网络编程（数据请求-类库）.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-文明嘉兴-网络编程（数据请求-类库）.release.xcconfig"; path = "Pods/Target Support Files/Pods-文明嘉兴-网络编程（数据请求-类库）/Pods-文明嘉兴-网络编程（数据请求-类库）.release.xcconfig"; sourceTree = "<group>"; };
+		C7141F281D07BE8E0093A69F /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		C7141F291D07BE8E0093A69F /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		C71C5E2E1D0CE3A200841E12 /* BannerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerNews.h; sourceTree = "<group>"; };
+		C71C5E2F1D0CE3A200841E12 /* BannerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerNews.m; sourceTree = "<group>"; };
+		C742A0771D1A1D9100958B8F /* NewsSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsSort.h; sourceTree = "<group>"; };
+		C742A0781D1A1D9100958B8F /* NewsSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsSort.m; sourceTree = "<group>"; };
+		C766E60E1D055B63004679AD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C76D2F471D11427800637F58 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		C76D2F481D11427800637F58 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		C76D2F4A1D1142FE00637F58 /* PublicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicViewController.h; sourceTree = "<group>"; };
+		C76D2F4B1D1142FE00637F58 /* PublicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicViewController.m; sourceTree = "<group>"; };
+		C76D2F4D1D11433200637F58 /* CivilizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CivilizationViewController.h; sourceTree = "<group>"; };
+		C76D2F4E1D11433200637F58 /* CivilizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CivilizationViewController.m; sourceTree = "<group>"; };
 		C7AF4B041D026FB0007E0467 /* 文明嘉兴-网络编程（数据请求-类库）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "文明嘉兴-网络编程（数据请求-类库）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AF4B081D026FB0007E0467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7AF4B0A1D026FB0007E0467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7AF4B0B1D026FB0007E0467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7AF4B0D1D026FB0007E0467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7AF4B0E1D026FB0007E0467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7AF4B0D1D026FB0007E0467 /* OneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
+		C7AF4B0E1D026FB0007E0467 /* OneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
 		C7AF4B111D026FB0007E0467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7AF4B141D026FB0007E0467 /* __________________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "__________________.xcdatamodel"; sourceTree = "<group>"; };
 		C7AF4B161D026FB0007E0467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +76,11 @@
 		C7AF4B2B1D026FB0007E0467 /* 文明嘉兴-网络编程（数据请求-类库）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "文明嘉兴-网络编程（数据请求-类库）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AF4B2F1D026FB0007E0467 /* __________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________UITests.m"; sourceTree = "<group>"; };
 		C7AF4B311D026FB0007E0467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AF4B6F1D027125007E0467 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C7AF4B701D027125007E0467 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C7AF4B711D027125007E0467 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CAC84CA8F41ADBD03670E90C /* libPods-文明嘉兴-网络编程（数据请求-类库）.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-文明嘉兴-网络编程（数据请求-类库）.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3930B69DDAAB23909789BDC /* Pods-文明嘉兴-网络编程（数据请求-类库）.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-文明嘉兴-网络编程（数据请求-类库）.debug.xcconfig"; path = "Pods/Target Support Files/Pods-文明嘉兴-网络编程（数据请求-类库）/Pods-文明嘉兴-网络编程（数据请求-类库）.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB35CD4CE6A29A77FFEA551 /* libPods-文明嘉兴-网络编程（数据请求-类库）.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +109,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004E099DE3C6D401276AE55C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3930B69DDAAB23909789BDC /* Pods-文明嘉兴-网络编程（数据请求-类库）.debug.xcconfig */,
+				BDBA92291A12DC1D8A4A4C6E /* Pods-文明嘉兴-网络编程（数据请求-类库）.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DDA449A27D85F62567BF59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC84CA8F41ADBD03670E90C /* libPods-文明嘉兴-网络编程（数据请求-类库）.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7141F211D07B77F0093A69F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7141F281D07BE8E0093A69F /* News.h */,
+				C7141F291D07BE8E0093A69F /* News.m */,
+				C71C5E2E1D0CE3A200841E12 /* BannerNews.h */,
+				C71C5E2F1D0CE3A200841E12 /* BannerNews.m */,
+				C742A0771D1A1D9100958B8F /* NewsSort.h */,
+				C742A0781D1A1D9100958B8F /* NewsSort.m */,
+				C7AF4B131D026FB0007E0467 /* __________________.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C7141F2D1D07CC490093A69F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C73BAF161D17FAA60026833E /* cell */,
+				C7AF4B101D026FB0007E0467 /* Main.storyboard */,
+				C7AF4B161D026FB0007E0467 /* Assets.xcassets */,
+				C7AF4B181D026FB0007E0467 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C71ED2A51D06ACCC00275216 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C73BAF121D17E7230026833E /* 新闻栏 */,
+				C73BAF151D17E7D10026833E /* 文明办 */,
+				C73BAF141D17E77B0026833E /* 公共 */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C73BAF121D17E7230026833E /* 新闻栏 */ = {
+			isa = PBXGroup;
+			children = (
+				C76D2F471D11427800637F58 /* NewViewController.h */,
+				C76D2F481D11427800637F58 /* NewViewController.m */,
+				C73BAF131D17E7460026833E /* 子控制器 */,
+			);
+			name = "新闻栏";
+			sourceTree = "<group>";
+		};
+		C73BAF131D17E7460026833E /* 子控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF4B0D1D026FB0007E0467 /* OneController.h */,
+				C7AF4B0E1D026FB0007E0467 /* OneController.m */,
+			);
+			name = "子控制器";
+			sourceTree = "<group>";
+		};
+		C73BAF141D17E77B0026833E /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+				C76D2F4A1D1142FE00637F58 /* PublicViewController.h */,
+				C76D2F4B1D1142FE00637F58 /* PublicViewController.m */,
+			);
+			name = "公共";
+			sourceTree = "<group>";
+		};
+		C73BAF151D17E7D10026833E /* 文明办 */ = {
+			isa = PBXGroup;
+			children = (
+				C76D2F4D1D11433200637F58 /* CivilizationViewController.h */,
+				C76D2F4E1D11433200637F58 /* CivilizationViewController.m */,
+			);
+			name = "文明办";
+			sourceTree = "<group>";
+		};
+		C73BAF161D17FAA60026833E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF4B6F1D027125007E0467 /* TableViewCell.h */,
+				C7AF4B701D027125007E0467 /* TableViewCell.m */,
+				C7AF4B711D027125007E0467 /* TableViewCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		C7AF4AFB1D026FB0007E0467 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +215,8 @@
 				C7AF4B231D026FB0007E0467 /* 文明嘉兴-网络编程（数据请求-类库）Tests */,
 				C7AF4B2E1D026FB0007E0467 /* 文明嘉兴-网络编程（数据请求-类库）UITests */,
 				C7AF4B051D026FB0007E0467 /* Products */,
+				004E099DE3C6D401276AE55C /* Pods */,
+				2DDA449A27D85F62567BF59B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +233,13 @@
 		C7AF4B061D026FB0007E0467 /* 文明嘉兴-网络编程（数据请求-类库） */ = {
 			isa = PBXGroup;
 			children = (
+				C7141F2D1D07CC490093A69F /* View */,
+				C7141F211D07B77F0093A69F /* Models */,
+				C71ED2A51D06ACCC00275216 /* Controller */,
+				C7AF4B071D026FB0007E0467 /* Supporting Files */,
 				C7AF4B0A1D026FB0007E0467 /* AppDelegate.h */,
 				C7AF4B0B1D026FB0007E0467 /* AppDelegate.m */,
-				C7AF4B0D1D026FB0007E0467 /* ViewController.h */,
-				C7AF4B0E1D026FB0007E0467 /* ViewController.m */,
-				C7AF4B101D026FB0007E0467 /* Main.storyboard */,
-				C7AF4B161D026FB0007E0467 /* Assets.xcassets */,
-				C7AF4B181D026FB0007E0467 /* LaunchScreen.storyboard */,
 				C7AF4B1B1D026FB0007E0467 /* Info.plist */,
-				C7AF4B131D026FB0007E0467 /* __________________.xcdatamodeld */,
-				C7AF4B071D026FB0007E0467 /* Supporting Files */,
 			);
 			path = "文明嘉兴-网络编程（数据请求-类库）";
 			sourceTree = "<group>";
@@ -120,6 +247,7 @@
 		C7AF4B071D026FB0007E0467 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C766E60E1D055B63004679AD /* PrefixHeader.pch */,
 				C7AF4B081D026FB0007E0467 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7AF4B341D026FB0007E0467 /* Build configuration list for PBXNativeTarget "文明嘉兴-网络编程（数据请求-类库）" */;
 			buildPhases = (
+				63499330BF27C5F9CE6CFFDE /* Check Pods Manifest.lock */,
 				C7AF4B001D026FB0007E0467 /* Sources */,
 				C7AF4B011D026FB0007E0467 /* Frameworks */,
 				C7AF4B021D026FB0007E0467 /* Resources */,
+				15F933F9D40D9A19994078C8 /* Embed Pods Frameworks */,
+				CD3E9DF82857C011DEF6E1F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AF4B1A1D026FB0007E0467 /* LaunchScreen.storyboard in Resources */,
+				C7AF4B731D027125007E0467 /* TableViewCell.xib in Resources */,
 				C7AF4B171D026FB0007E0467 /* Assets.xcassets in Resources */,
 				C7AF4B121D026FB0007E0467 /* Main.storyboard in Resources */,
 			);
@@ -268,15 +400,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15F933F9D40D9A19994078C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-文明嘉兴-网络编程（数据请求-类库）/Pods-文明嘉兴-网络编程（数据请求-类库）-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63499330BF27C5F9CE6CFFDE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3E9DF82857C011DEF6E1F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-文明嘉兴-网络编程（数据请求-类库）/Pods-文明嘉兴-网络编程（数据请求-类库）-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7AF4B001D026FB0007E0467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AF4B0F1D026FB0007E0467 /* ViewController.m in Sources */,
+				C76D2F4F1D11433200637F58 /* CivilizationViewController.m in Sources */,
+				C7AF4B0F1D026FB0007E0467 /* OneController.m in Sources */,
 				C7AF4B151D026FB0007E0467 /* __________________.xcdatamodeld in Sources */,
+				C71C5E301D0CE3A200841E12 /* BannerNews.m in Sources */,
+				C76D2F491D11427800637F58 /* NewViewController.m in Sources */,
 				C7AF4B0C1D026FB0007E0467 /* AppDelegate.m in Sources */,
 				C7AF4B091D026FB0007E0467 /* main.m in Sources */,
+				C7141F2A1D07BE8E0093A69F /* News.m in Sources */,
+				C76D2F4C1D1142FE00637F58 /* PublicViewController.m in Sources */,
+				C7AF4B721D027125007E0467 /* TableViewCell.m in Sources */,
+				C742A0791D1A1D9100958B8F /* NewsSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,23 +602,29 @@
 		};
 		C7AF4B351D026FB0007E0467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3930B69DDAAB23909789BDC /* Pods-文明嘉兴-网络编程（数据请求-类库）.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/文明嘉兴-网络编程（数据请求-类库）/PrefixHeader.pch";
 				INFOPLIST_FILE = "文明嘉兴-网络编程（数据请求-类库）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-0160530.------------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Debug;
 		};
 		C7AF4B361D026FB0007E0467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBA92291A12DC1D8A4A4C6E /* Pods-文明嘉兴-网络编程（数据请求-类库）.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/文明嘉兴-网络编程（数据请求-类库）/PrefixHeader.pch";
 				INFOPLIST_FILE = "文明嘉兴-网络编程（数据请求-类库）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-0160530.------------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Release;
 		};
@@ -502,6 +695,7 @@
 				C7AF4B361D026FB0007E0467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7AF4B371D026FB0007E0467 /* Build configuration list for PBXNativeTarget "文明嘉兴-网络编程（数据请求-类库）Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +704,7 @@
 				C7AF4B391D026FB0007E0467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7AF4B3A1D026FB0007E0467 /* Build configuration list for PBXNativeTarget "文明嘉兴-网络编程（数据请求-类库）UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +713,7 @@
 				C7AF4B3C1D026FB0007E0467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

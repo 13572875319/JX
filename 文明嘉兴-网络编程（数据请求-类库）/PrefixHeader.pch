@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  文明嘉兴-网络编程（数据请求-类库）
+//
+//  Created by DC004 on 16/6/6.
+//  Copyright © 2016年 段东刚. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define HOST @"http://jxwm.gkmm.net:8989/news/"
+#define getNews [HOST stringByAppendingString:@"news/getNewsByCategoryId.do"]
+#define getBanner [HOST stringByAppendingString:@"newsCategory/getBanner.do"]
+#define getNewsCategory [HOST stringByAppendingString:@"newsCategory/getNewsCategory.do"]
+#import "MJRefresh.h"
+#import "News.h"
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "TableViewCell.h"
+#import "SDCycleScrollView.h"
+#import "MJExtension.h"
+#import "BannerNews.h"
+#import "MBProgressHUD.h"
+#import "YSLContainerViewController.h"
+#import "Masonry.h"
+#define GetNewsDataNotification @"获取新闻数据"
+#define GetBannerDataNotification @"获取图片"
+#define GetNewsCategoryNotification @"获取新闻分类"
+#endif
