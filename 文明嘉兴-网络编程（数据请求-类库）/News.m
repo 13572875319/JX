@@ -10,11 +10,11 @@
 #import "MBProgressHUD.h"
 @implementation News
 
-+(void)receiveDataWithPageNum:(int)pageNum{
-    [[[self class]alloc]receiveDataWithPageNum:pageNum];
++(void)receiveDataWithPageNum:(int)pageNum andCategoryPage:(int)page{
+    [[[self class]alloc] receiveDataWithPageNum:pageNum andCategoryPage:page];
 }
 #pragma mark 获取数据的方法
--(void)receiveDataWithPageNum:(int)pageNum{
+-(void)receiveDataWithPageNum:(int)pageNum andCategoryPage:(int)page{
     //获取MBProgress的View目标所在
     UIView *view=[[UIApplication sharedApplication].windows lastObject];
     MBProgressHUD *progress=[MBProgressHUD showHUDAddedTo:view animated:YES];
@@ -26,7 +26,7 @@
     self.manager.responseSerializer.acceptableContentTypes=set;
     //实例化字典作为POST的请求boby
     NSDictionary *dict=@{
-                         @"categoryId":@1,
+                         @"categoryId":@(page),
                          @"pageNum":@(pageNum)
                          };
     

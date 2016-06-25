@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <ShareSDK/ShareSDK.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import "WXApi.h"
+#import "WeiboSDK.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

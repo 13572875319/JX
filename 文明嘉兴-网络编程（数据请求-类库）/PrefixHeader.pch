@@ -12,6 +12,11 @@
 #define getNews [HOST stringByAppendingString:@"news/getNewsByCategoryId.do"]
 #define getBanner [HOST stringByAppendingString:@"newsCategory/getBanner.do"]
 #define getNewsCategory [HOST stringByAppendingString:@"newsCategory/getNewsCategory.do"]
+//请求新闻的详情
+#define HTTP_getNewsDetailById [HOST stringByAppendingFormat:@"news/getNewsDetailById.do"]
+
+#define HTTP_getPsas [HOST stringByAppendingFormat:@"pasa/getPsas.do"]
+#define HTTP_getAnnouncement [HOST stringByAppendingFormat:@"announ/getAnnouncement.do"]
 #import "MJRefresh.h"
 #import "News.h"
 #import "AFNetworking.h"
@@ -26,4 +31,7 @@
 #define GetNewsDataNotification @"获取新闻数据"
 #define GetBannerDataNotification @"获取图片"
 #define GetNewsCategoryNotification @"获取新闻分类"
+#define GetPsasNotification @"获取公益广告"
+#define GetAnnouncementNotification @"获取公告"
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
 #endif

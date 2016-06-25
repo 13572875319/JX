@@ -14,5 +14,5 @@
 @property(nonatomic, strong)NSString * link;
 @property(nonatomic, strong)NSString * title;
 @property (nonatomic,strong) AFHTTPSessionManager * manager;
-+(void)receiveBannerManager;
++(void)receiveBannerManager:(int)page;
 @end

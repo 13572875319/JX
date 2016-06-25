@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="KGk-i7-Jjw" customClass="NotificationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="131"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2O-g6-OEN" userLabel="layerView">
+                        <rect key="frame" x="10" y="5" width="302" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0H-Fz-VVG">
+                                <rect key="frame" x="10" y="0.0" width="292" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Km7-g3-Ara"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPL-lF-ofO">
+                                <rect key="frame" x="60" y="32" width="242" height="18"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLh-js-lFj">
+                                <rect key="frame" x="61" y="83" width="236" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3In-A7-aOg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQL-Oa-flD" userLabel="lineView">
+                                <rect key="frame" x="5" y="30" width="292" height="2"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.020405258900000001" blue="0.10646735960000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="TDs-p3-lOc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <constraints>
+                            <constraint firstItem="K0H-Fz-VVG" firstAttribute="leading" secondItem="G2O-g6-OEN" secondAttribute="leading" constant="10" id="3cE-ec-zNl"/>
+                            <constraint firstAttribute="trailing" secondItem="gQL-Oa-flD" secondAttribute="trailing" constant="5" id="NDX-x1-0NT"/>
+                            <constraint firstAttribute="trailing" secondItem="K0H-Fz-VVG" secondAttribute="trailing" id="Nb5-ZF-n8i"/>
+                            <constraint firstItem="uPL-lF-ofO" firstAttribute="leading" secondItem="G2O-g6-OEN" secondAttribute="leading" constant="60" id="a5T-I3-Ckg"/>
+                            <constraint firstAttribute="bottom" secondItem="QLh-js-lFj" secondAttribute="bottom" constant="7" id="aTO-Yu-7G1"/>
+                            <constraint firstItem="K0H-Fz-VVG" firstAttribute="top" secondItem="G2O-g6-OEN" secondAttribute="top" id="c5Q-wi-b8D"/>
+                            <constraint firstItem="uPL-lF-ofO" firstAttribute="top" secondItem="gQL-Oa-flD" secondAttribute="bottom" id="eOe-SC-Ce9"/>
+                            <constraint firstItem="gQL-Oa-flD" firstAttribute="top" secondItem="K0H-Fz-VVG" secondAttribute="bottom" id="gqj-Ky-hNP"/>
+                            <constraint firstAttribute="trailing" secondItem="uPL-lF-ofO" secondAttribute="trailing" id="j4y-oO-YGS"/>
+                            <constraint firstItem="gQL-Oa-flD" firstAttribute="leading" secondItem="G2O-g6-OEN" secondAttribute="leading" constant="5" id="jSe-B9-g9j"/>
+                            <constraint firstAttribute="trailing" secondItem="QLh-js-lFj" secondAttribute="trailing" constant="5" id="oqA-ON-dwU"/>
+                            <constraint firstItem="QLh-js-lFj" firstAttribute="leading" secondItem="G2O-g6-OEN" secondAttribute="leading" constant="61" id="pD9-gr-qW5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="G2O-g6-OEN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="H01-Fj-nc7"/>
+                    <constraint firstAttribute="bottom" secondItem="G2O-g6-OEN" secondAttribute="bottom" constant="5" id="WCN-cn-zFg"/>
+                    <constraint firstAttribute="trailing" secondItem="G2O-g6-OEN" secondAttribute="trailing" constant="10" id="t7W-Wl-1Qx"/>
+                    <constraint firstItem="G2O-g6-OEN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="w8U-AK-Fcc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="detailLable" destination="uPL-lF-ofO" id="Alu-40-3HD"/>
+                <outlet property="layerView" destination="G2O-g6-OEN" id="h4J-IS-Mrz"/>
+                <outlet property="timeLable" destination="QLh-js-lFj" id="PvX-aQ-gvA"/>
+                <outlet property="titleLable" destination="K0H-Fz-VVG" id="W1F-lD-mb8"/>
+            </connections>
+            <point key="canvasLocation" x="338" y="447.5"/>
+        </tableViewCell>
+    </objects>
+</document>

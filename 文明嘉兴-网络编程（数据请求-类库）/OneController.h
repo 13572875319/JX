@@ -10,7 +10,7 @@
 
 @interface OneController: UIViewController
 
-
+-(void)setPageParameter:(int)pageNumber;
 
 @end
 

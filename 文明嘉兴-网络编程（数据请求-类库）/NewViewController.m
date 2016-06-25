@@ -18,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarController.tabBar.tintColor = [UIColor orangeColor];
+    //修改tabBarItem的字体颜色
+    [self.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor],NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
     //发送一个通知
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(getNewsSortManager:) name:GetNewsCategoryNotification object:nil];
     //请求新闻分类
@@ -39,17 +42,19 @@
         [controllerArr addObject:one];
     }
     //实现分段控制的类库
-    YSLContainerViewController *controller=[[YSLContainerViewController alloc]initWithControllers:controllerArr topBarHeight:30 parentViewController:self];
+    YSLContainerViewController *controller=[[YSLContainerViewController alloc]initWithControllers:controllerArr topBarHeight:22 parentViewController:self];
+    controller.menuBackGroudColor=[UIColor orangeColor];
+    controller.menuItemSelectedTitleColor=[UIColor redColor];
     controller.delegate=self;
     [self.view addSubview:controller.view];
 }
 
 #pragma mark -- YSLContainerViewControllerDelegate
-- (void)containerViewItemIndex:(NSInteger)index currentController:(UIViewController *)controller
+- (void)containerViewItemIndex:(NSInteger)index currentController:(OneController *)controller
 {
-    [controller viewWillAppear:YES];
+    [controller setPageParameter:(int)index+1];
 }
-#pragma categoryArr进行懒加载
+#pragma mark categoryArr进行懒加载
 -(NSMutableArray *)categoryArr{
     if (!_categoryArr) {
         _categoryArr=[NSMutableArray array];
@@ -57,4 +62,9 @@
     return _categoryArr;
 }
 
+#pragma mark 移除通知
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:GetNewsCategoryNotification object:nil];
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
 @end

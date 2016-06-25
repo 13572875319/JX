@@ -20,10 +20,9 @@
 @property(nonatomic ,strong)NSNumber * praiseNum;
 @property(nonatomic ,strong)NSNumber * browseNum;
 @property(nonatomic, strong)NSString * issuestime;
-+(void)receiveDataWithPageNum:(int)pageNum;
 
-
-
-
-
+@property (nonatomic,strong) NSString * categoryFk;
+@property (nonatomic,strong) NSString * content;
+@property (nonatomic,strong) NSString * link;
++(void)receiveDataWithPageNum:(int)pageNum andCategoryPage:(int)page;
 @end

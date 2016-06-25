@@ -14,12 +14,6 @@
 }
 #pragma mark 获取新闻分类请求
 -(void)getNewsSort{
-    //增加 实例化一个可变的无序数组，并将responseSerializer.acceptableContentTypes添加到数组中
-    NSMutableSet *set=[NSMutableSet setWithSet:self.manager.responseSerializer.acceptableContentTypes];
-    //给数组添加元素 text/html
-    [set addObject:@"text/html"];
-    //将可变的无序数组有赋值个responseSerializer.acceptableContentTypes
-    self.manager.responseSerializer.acceptableContentTypes=set;
     [self.manager POST:getNewsCategory parameters:nil progress:nil
                success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                    if ([responseObject[@"result"] isEqualToNumber:@0]) {
@@ -42,7 +36,6 @@
         return  _manager;
     }
     _manager = [AFHTTPSessionManager manager];
-//    _manager.requestSerializer = [AFJSONRequestSerializer serializer];
     return _manager;
 }
 @end
