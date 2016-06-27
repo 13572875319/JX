@@ -26,7 +26,7 @@
     [self.label1 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(CGSizeMake(100, 50));
         make.centerX.equalTo(self.view);
-        make.top.equalTo(self.view).offset(100);
+        make.top.equalTo(self.view).offset(5);
         
     }];
     //imageView
@@ -35,7 +35,7 @@
     self.imageView.image=[UIImage imageNamed:@"二位码.jpg"];
     [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(CGSizeMake(200, 200));
-        make.top.equalTo(self.view).offset(170);
+        make.top.equalTo(self.view).offset(60);
         make.centerX.equalTo(self.view);
     }];
     //label2
@@ -45,9 +45,9 @@
     self.label2.numberOfLines=2;
     self.label2.font=[UIFont systemFontOfSize:18];
     [self.label2 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.size.mas_equalTo(CGSizeMake(220, 60));
+        make.size.mas_equalTo(CGSizeMake(240, 50));
         make.centerX.equalTo(self.view);
-        make.top.equalTo(self.view).offset(400);
+        make.top.equalTo(self.view).offset(280);
     }];
 
     

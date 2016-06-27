@@ -17,11 +17,11 @@
 @end
 
 @implementation FriendshipViewController
-int k;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     UICollectionViewFlowLayout * layout=[[UICollectionViewFlowLayout alloc]init];
-    self.collectionView=[[UICollectionView alloc]initWithFrame:CGRectMake(0, 10, self.view.frame.size.width, self.view.frame.size.height) collectionViewLayout:layout];
+    self.collectionView=[[UICollectionView alloc]initWithFrame:CGRectMake(0, 10, self.view.frame.size.width, self.view.frame.size.height-115) collectionViewLayout:layout];
     [self.view addSubview:self.collectionView];
     self.collectionView.dataSource=self;
     self.collectionView.delegate=self;
@@ -53,11 +53,11 @@ int k;
 }
 
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
-    return UIEdgeInsetsMake(0, 30, 0, 30);
+    return UIEdgeInsetsMake(10, 10, 10, 10);
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    NSString *string=[NSString stringWithFormat:@"%li",indexPath.row];
+    NSString *string=[NSString stringWithFormat:@"%i",indexPath.row];
     NSString *title=self.arrayII[indexPath.row];
     NSUserDefaults *user= [NSUserDefaults standardUserDefaults];
     [user setValue:@[string,title] forKey:@"value"];
